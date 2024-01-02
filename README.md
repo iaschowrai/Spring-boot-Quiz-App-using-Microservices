@@ -16,6 +16,9 @@ Eureka Server: A service registry for microservices, enabling service discovery.
 
 OpenFeign: A declarative web service client that simplifies calling RESTful services.
 
+Spring Cloud Gateway: Provides a simple, yet effective way to route requests.
+
+
 Project Structure
 The project is divided into three services:
 
@@ -33,3 +36,7 @@ service-registry (Eureka Server):
 
 Enables service discovery and monitors the running instances of microservices.
 Provides information on instances, such as port numbers.
+
+api-gateway
+   - Routes requests to microservices.
+   - Acts as an entry point to the system.
