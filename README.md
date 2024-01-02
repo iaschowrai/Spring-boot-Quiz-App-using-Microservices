@@ -14,7 +14,7 @@ Lombok: A library to reduce boilerplate code in Java.
 
 Eureka Server: A service registry for microservices, enabling service discovery.
 
-Feign: A declarative web service client that simplifies calling RESTful services.
+OpenFeign: A declarative web service client that simplifies calling RESTful services.
 
 Project Structure
 The project is divided into three services:
